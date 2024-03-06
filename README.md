@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
 
+## Purpose
+
+This project has been released as a base for an Angular 17 project from the scratch. Feel free to use it in your projects, no license neither atributions are required.
+
+Some structure has been added to the project in order to make it modular with three modules:
+
+* ### Public -> pages in the app with public access
+* ### Intranet -> Intranet section in your project
+* ### Admin -> Platform admin area
+
+The initial routes of the app have also been structured, adding lazy loading to the routing of the main modules
+
+Enjoy and if you want to star it, it´ll be really welcome!
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -13,14 +27,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
