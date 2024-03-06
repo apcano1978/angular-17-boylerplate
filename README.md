@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project has been released as a base for an Angular 17 project from the scratch. Feel free to use it in your projects, no license neither atributions are required.
 
-Some structure has been added to the project in order to make it modular with three modules:
+Some structure has been added to the project in order to make it modular with three base modules, you can extend this structure from this starting point:
 
 * ### Public -> pages in the app with public access
 * ### Intranet -> Intranet section in your project
